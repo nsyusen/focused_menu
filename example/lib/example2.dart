@@ -21,13 +21,7 @@ class _Example2State extends State<Example2> {
             menuOffset: 0,
             controller: _avatarController,
             onPressed: () {},
-            menuItems: <FocusedMenuItem>[
-              FocusedMenuItem(
-                title: Text("This is a button"),
-                trailing: Icon(Icons.open_in_new),
-                onPressed: () {},
-              ),
-            ],
+            menuItems: <FocusedMenuItem>[],
             child: CircleAvatar(
               child: Image.asset("assets/images/dp_default.png"),
             ),
