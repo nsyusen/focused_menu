@@ -152,16 +152,16 @@ class _FocusedMenuDetailsState extends State<FocusedMenuDetails> {
                                   margin: const EdgeInsets.only(bottom: 0),
                                   height: widget.itemExtent ?? 50,
                                   child: Padding(
-                                    padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 14),
+                                    padding: const EdgeInsets.symmetric(horizontal: 14),
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      mainAxisAlignment: MainAxisAlignment.center,
                                       children: <Widget>[
                                         SizedBox(
                                           height: 20,
                                           width: 20,
                                           child: Center(
                                               child: CircularProgressIndicator(
-                                            color: Colors.pink,
+                                            color: Colors.white,
                                           )),
                                         )
                                       ],
